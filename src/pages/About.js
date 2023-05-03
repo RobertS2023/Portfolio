@@ -1,9 +1,9 @@
-// import { Link } from "react-router-dom";
 import { useEffect, useRef } from "react";
 import knox from "../images/knox.jpg";
 import music from "../images/music.jpg";
 import coding from "../images/coding.jpg";
 import css from "../images/css.jpg";
+
 const About = () => {
   const h3Ref = useRef(null);
   const handleClick = () => {
@@ -31,7 +31,7 @@ const About = () => {
               <h4>My Background</h4>
             </div>
             <p>
-              I am 20 years old and was born on April 23rd, 2002. I was born to
+              I am 21 years old and was born on April 23rd, 2002. I was born to
               a military family where we were constantly moving around. After my
               parents split, I moved to Southern California and grew up in the
               valley.

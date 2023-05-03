@@ -1,14 +1,14 @@
 import React, { useState } from "react";
 import { useEffect, useRef } from "react";
 import Robbie from "../images/Robbie.JPG"; // Import the image
-import knox from "../images/knox.jpg";
+
 import about from "../images/about.jpg";
 import ShowModal from "../pages/showModal";
 
 const Home = () => {
   const [show, setShow] = useState(false);
   const [backToTopVisible, setBackToTopVisible] = useState(true);
-  const Image = useState("image");
+  // const Image = useState("image");
   const h2Ref = useRef(null);
 
   const handleClick = () => {
