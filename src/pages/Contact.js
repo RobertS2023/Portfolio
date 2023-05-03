@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useEffect, useRef } from "react";
 import hire from "../images/hire.jpg";
+
 const Contact = () => {
   const [showContactList, setShowContactList] = useState(false);
   const navigate = useNavigate();

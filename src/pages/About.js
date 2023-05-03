@@ -124,7 +124,6 @@ const About = () => {
           </p>
         </div>
       </div>
-
       <button onClick={handleClick} className="about-btn">
         Back To Top
       </button>
